@@ -1,0 +1,108 @@
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+__MACOSX
+
+# Linux
+.*.swp
+.*.swo
+
+# 编辑器
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# 依赖目录
+node_modules/
+jspm_packages/
+bower_components/
+
+# =========================
+# 构建输出 & 临时文件
+# =========================
+
+# Hexo / 静态站点生成器
+public/
+.deploy_git/
+.deploy_github/
+
+# 通用构建输出
+dist/
+out/
+build/
+.cache/
+.nuxt/
+.next/
+.gatsby/
+output/
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.bak
+
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config/local.*
+secrets/
+*.pem
+*.key
+
+# yarn
+yarn-error.log
+.yarn/releases/
+.yarn/plugins/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# pnpm
+pnpm-lock.yaml
+.pnpm-debug.log*
+
+# =========================
+# 其他
+# =========================
+
+# 测试覆盖率
+coverage/
+.nyc_output/
+
+# Docker
+.dockerignore
+
+# Misc
+.DS_Store
+.sass-cache/
+.grunt/
+.bower-registry/
+.bower-tmp/
+.gitattributes
